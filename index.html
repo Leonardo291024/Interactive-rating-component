@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>How did we do?</title>
+</head>
+<body>
+    <article class="card1" id="tarjet1">
+        <div class="header">
+            <div class="header-icon">
+                <img src="./images/icon-star.svg" alt="">
+            </div>
+        </div>
+        <div class="container-title">
+            <h1>How did we do?</h1>
+            <p>Please let us know we did with your support request. All feedback is appreciated to help us improve our offering!.</p>
+        </div>
+        <div class="container-submit">
+            <div class="numbers">
+                <input type="radio" id="1" name="option" value="option1">
+                <label for="1">1</label>
+
+                <input type="radio" id="2" name="option"  value="option2">
+                <label for="2">2</label>
+
+                <input type="radio" id="3" name="option"  value="option3">
+                <label for="3">3</label>
+
+                <input type="radio" id="4" name="option"  value="option4">
+                <label for="4">4</label>
+
+                <input type="radio" id="5" name="option"  value="option5">
+                <label for="5">5</label>
+            </div>
+            <button class="btn_submit" id="boton">SUBMIT</button>
+            <p id="texto"></p>
+        </div>
+    </article>
+
+    <article class="card2" id="tarjet2">
+        <div class="container-image">
+            <img src="./images/illustration-thank-you.svg" alt="">
+            <p>
+                You selected <span id="seleccionado">4</span> de 5
+            </p>
+        </div>
+
+        <div class="tankYou">
+            <h1>Tank you!</h1>
+            <p>we appreciate you taking the time to give a rating. If you ever need more support , dont hesitate to get in touch!</p>
+        </div>
+    </article>
+
+    <script src="main.js"></script>
+</body>
+</html>
